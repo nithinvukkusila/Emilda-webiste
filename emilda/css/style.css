@@ -1,0 +1,352 @@
+html,body
+{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "product sans";
+    src: url("../images/google-sans-cufonfonts/ProductSans-Medium.ttf") format("ttf"),
+    url("../images/google-sans-cufonfonts/ProductSans-Bold.ttf") format("ttf"),
+    url("../images/google-sans-cufonfonts/ProductSans-Regular.ttf") format("ttf")      
+  }
+  
+  *
+  {
+      font-family: 'product sans';
+  }
+  
+.navbar-toggle .icon-bar {
+    width: 22px;
+    transition: all 0.7s;
+
+}
+
+.navbar-toggle .top-bar {
+    transform: translateX(3px) rotate(135deg);
+    transform-origin: 40% 200%;
+}
+
+.navbar-toggle .mid-bar {
+    opacity: 0;
+}
+
+.navbar-toggle .bot-bar {
+    transform: translateX(3px) rotate(-135deg);
+    transform-origin: 40% -80%;
+}
+
+.navbar-toggle.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggle.collapsed .mid-bar {
+    opacity: 1;
+}
+
+.navbar-toggle.collapsed .bot-bar {
+    transform: rotate(0);
+}
+
+
+/* main content */
+.spl
+{
+    color: #FFC107;
+}
+.main_con .main_content
+{
+    margin: 150px auto;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.main_buttons
+{ 
+    width: 25%;
+    margin: 20px auto;
+    text-align: center;
+}
+.btn
+{
+    border:2px solid #A5A3A3;
+    font-weight: bold;
+}
+.btn:hover
+{
+    border: 2px solid transparent;
+    background-color: black;
+    transition: background-color 0.5s;
+    color: white;
+}
+.main_content h1
+{
+font-size: 38px;
+font-weight: bold;
+}
+.main_p
+{ 
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* end of main content */
+/* section 2 */
+
+.sec_2
+{   
+    margin: 150px auto;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.sec_2 h2
+{ 
+    font-weight: bold;
+}
+.subgroup
+{     text-align: left;
+
+    margin: 70px auto;
+}
+
+.subgroup h4
+{  
+    font-weight: bold   
+}
+/* end of section 2 */
+
+/* section 3 */
+.unlock
+{
+    margin: 100px auto;
+}
+.mybuttons
+{
+    width: 50%;
+    margin-left: 3px;
+    margin-top: 20px;
+}
+.sec_3 h3
+{
+    font-weight: bold;
+    font-size: 28px;
+}
+.sec_3 p
+{
+    margin: 20px auto;
+    width: 80%;
+    float: left;
+}
+
+/* end of section 3 */
+/* section 4 */
+
+
+.section_4
+{
+    width: 40%;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.section_4 h1
+{
+    font-weight: bold;
+}
+.section_4 p
+{
+    
+    float: right;
+    padding: 20px;
+}
+
+
+
+
+/* end of section 4 */
+
+/* section 5 */
+.section_5
+{
+    text-align: center;
+
+}
+.section_5 h4
+{
+    font-weight: bold;
+
+}
+
+/* end of section 5 */
+
+/* section 6 */
+
+.ourworks
+{
+    margin: 100px auto;
+    text-align: center;
+}
+.ourworks h1
+{
+    font-weight: bold;
+}
+.inside
+{ 
+    margin: 0 auto;
+    width: 50%;
+}
+.works
+{
+    margin: 100px auto;
+    text-align: left;
+}
+.block
+{
+    margin: 0;
+}
+.works img
+{
+    margin: 0;
+}
+.myimage
+{
+width: 40%;
+float: left;
+}
+.aboutcom
+{
+width: 60%;
+float: right;
+}
+
+/* end of section 6 */
+
+
+/* media queries*/
+/* main section */
+
+@media only screen and (max-width: 786px)
+{
+    .main_con .main_content
+    {
+        margin: 80px auto;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .main_buttons
+{ 
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+  .main_image
+  { 
+      width: 70%;
+      display: block;
+      margin: 20px auto;
+  }
+  .useless
+  {
+    display: none;
+
+  }
+  .subgroup
+{     
+
+    margin: 10px auto;
+}
+.unlock
+{
+    margin: 30px auto;
+    text-align: center;
+    width: 100%;
+}
+.sec_3 p
+{
+    margin: 20px auto;
+    width: 100%;
+   
+}
+.mybuttons
+{
+    width: 90%;
+
+}
+
+.section_4
+{
+    width: 80%;
+
+}
+
+.inside
+{ 
+    margin: 0 auto;
+    width: 80%;
+}
+
+.main_con
+{
+    background-image: url(../images/undraw_building_blocks_n0nc\ \(1\).svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+   background-size: unset;
+  padding-bottom: 300px;
+}
+}
+
+
+@media only screen and (max-width: 586px)
+{
+    .main_con .main_content
+    {
+        margin: 80px auto;
+        width: 90%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .main_buttons
+{ 
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+.mybuttons
+{
+    width: 100%;
+    margin-left: 3px;
+    margin-top: 20px;
+}
+.main_image
+{ 
+    display: none;
+}
+.section_4
+{
+    width: 100%;
+  margin: 40px auto;
+}
+.iphone
+{
+    display: block;
+}
+.inside
+{ 
+    margin: 0 auto;
+    width: 90%;
+}
+}
+
+.main_con
+{
+    background-image: url(../images/undraw_building_blocks_n0nc\ \(1\).svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+   background-size: initial;
+  padding-bottom: 400px;
+}
